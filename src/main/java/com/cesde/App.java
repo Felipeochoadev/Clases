@@ -13,7 +13,14 @@ public class App {
 
         //Inicio del algoritmo, Leer variables
         System.out.println("Ingrese el -> Codigo ");
+        
+        //next() para string
+        //nextFloat() para float
+        //nextInt() para int
+        codigo = scanner.next();
 
+        //Impresionde variable definida
+        System.out.println("El codigo ingreso fue: " + codigo);
         
     }
 }
