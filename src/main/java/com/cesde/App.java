@@ -31,5 +31,21 @@ public class App {
 
         System.out.println("El codigo ingreso fue: " + codigo + " por un valor bruto de " +valorBruto);
         
+        if( seccion.equalsIgnoreCase("Deportes") ){
+            descuento = valorBruto * 5/100;
+        } else {
+            if( seccion.equalsIgnoreCase("Aseo") ){
+                 descuento = valorBruto * 10/100;
+            } else {
+                 descuento = (float) 0;
+            }
+        }
+        iva = (valorBruto - descuento) * 10/100;
+        valorNeto = valorBruto- descuento + iva;
+
+        System.out.println("\n el producto con codigo " + codigo + " tiene un valor bruto de "+ valorBruto);
+        System.out.println("\n su descuento es de " + descuento );
+        System.out.println("\n tiene un iva de " + iva );
+        System.out.println("\n el valor neto a pagar es " + valorNeto );
     }
 }
