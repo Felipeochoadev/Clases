@@ -12,15 +12,24 @@ public class App {
         int cantVendida;
 
         //Inicio del algoritmo, Leer variables
-        System.out.println("Ingrese el -> Codigo ");
-        
+        System.out.println("Ingrese el Codigo del producto ");
+        codigo = scanner.next();
         //next() para string
         //nextFloat() para float
         //nextInt() para int
-        codigo = scanner.next();
+        System.out.println("Cuantas unidades compro ");
+        cantVendida = scanner.nextInt();
 
+        System.out.println("A que precio compro cada unidad ");
+        valorUnitario = scanner.nextFloat();
+        
+        System.out.println("Cual es la seccion donde compro ");
+        seccion = scanner.next();
+        
         //Impresionde variable definida
-        System.out.println("El codigo ingreso fue: " + codigo);
+        valorBruto = valorUnitario * cantVendida;
+
+        System.out.println("El codigo ingreso fue: " + codigo + " por un valor bruto de " +valorBruto);
         
     }
 }
