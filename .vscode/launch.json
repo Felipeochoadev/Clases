@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ej3",
+            "request": "launch",
+            "mainClass": "com.clase11.Ej3",
+            "projectName": "clases"
+        },
+        {
+            "type": "java",
+            "name": "Ej2",
+            "request": "launch",
+            "mainClass": "com.clase11.Ej2",
+            "projectName": "clases"
+        },
+        {
+            "type": "java",
+            "name": "Ej1",
+            "request": "launch",
+            "mainClass": "com.clase11.Ej1",
+            "projectName": "clases"
+        },
+        {
+            "type": "java",
             "name": "Ejercicio4",
             "request": "launch",
             "mainClass": "com.cesde.Ejercicio4",
