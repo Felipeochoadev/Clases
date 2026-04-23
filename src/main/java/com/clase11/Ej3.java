@@ -31,12 +31,12 @@ public class Ej3 {
         String[] TipoSexo = {"Hombre","Mujer"};
         String[] TipoDeporte = {"Natacion","Futbol", "Ciclismo", "Patinaje", "Otro"};
         int ProEdadFutbol;
-        double MujerCiclismo;
+        float MujerCiclismo;
         int PromedioEdad;
         int CantprefierenFutbol = 0;
         int EdadprefierenFutbol = 0;
-        double CantMujerCiclismo = 0;
-        double CantCiclismo = 0;
+        float CantMujerCiclismo = 0;
+        float CantCiclismo = 0;
         int CantNatPeso = 0;
         int CantGeneral = 0;
         int EdadGeneral = 0;
