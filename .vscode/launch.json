@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ejercicio11",
+            "request": "launch",
+            "mainClass": "com.ejercicio11.ejercicio11",
+            "projectName": "clases"
+        },
+        {
+            "type": "java",
             "name": "Ej3",
             "request": "launch",
             "mainClass": "com.clase11.Ej3",
